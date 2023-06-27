@@ -22,12 +22,12 @@
         <div class="header__logo-container">
           <div class="header__logo-img-cont">
             <img
-              src="./assets/png/john-doe.png"
+              src="./assets/png/anthony-img.png"
               alt="Ram Maheshwari Logo Image"
               class="header__logo-img"
             />
           </div>
-          <span class="header__logo-sub">John Doe</span>
+          <span class="header__logo-sub">Anthony Mensah</span>
         </div>
         <div class="header__main">
           <ul class="header__links">
@@ -84,80 +84,135 @@
     </header>
     <section class="project-cs-hero">
       <div class="project-cs-hero__content">
-        <h1 class="heading-primary">Project 2</h1>
+        <h1 class="heading-primary">AI Powered Discord Moderation Bot Case Study</h1>
         <div class="project-cs-hero__info">
           <p class="text-primary">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-            in numquam incidunt earum quaerat cum fuga, atque similique natus
-            nobis sit.
+            The internet can be a toxic place. Prevent doxxing and swatting 
+            on your Discrod communities with our automated flagging and 
+            content review system. 
           </p>
         </div>
         <div class="project-cs-hero__cta">
-          <a href="#" class="btn btn--bg" target="_blank">Live Link</a>
+          <a href="https://github.com/admensah/cs152bots" class="btn btn--bg" target="_blank">See the Code</a>
         </div>
       </div>
     </section>
     <section class="project-details">
       <div class="main-container">
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <div class="project-details__showcase-img-cont">
+          <img
+            src="./assets/jpeg/poster.jpg"
+            alt="Project Image"
+            class="project-details__showcase-img"
+          />
+        </div>
         <div class="project-details__content">
-          <div class="project-details__showcase-img-cont">
-            <img
-              src="./assets/jpeg/project-mockup-example.jpeg"
-              alt="Project Image"
-              class="project-details__showcase-img"
-            />
-          </div>
+          
           <div class="project-details__content-main">
+            
             <div class="project-details__desc">
               <h3 class="project-details__content-title">Project Overview</h3>
               <p class="project-details__desc-para">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-                alias tenetur minus quaerat aliquid, aut provident blanditiis,
-                deleniti aspernatur ipsam eaque veniam voluptatem corporis vitae
-                mollitia laborum corrupti ullam rem. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Neque alias tenetur minus quaerat
-                aliquid, aut provident blanditiis, deleniti aspernatur ipsam
-                eaque veniam voluptatem corporis vitae mollitia laborum corrupti
-                ullam rem?
+                Our solution is designed to combat online harassment and protect 
+                communities by addressing issues of doxing and swatting prevalent 
+                on platforms like Discord. Recognizing that anyone can become a victim 
+                of these harmful practices, we prioritize a zero-tolerance policy. Our 
+                algorithm prefers to err on the side of caution, choosing to flag potential 
+                instances of doxing and threats of swatting for review rather than risk 
+                allowing such incidents to go unchecked.
               </p>
               <p class="project-details__desc-para">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-                alias tenetur minus quaerat aliquid, aut provident blanditiis,
-                deleniti aspernatur ipsam eaque veniam voluptatem corporis vitae
-                mollitia laborum corrupti ullam rem?
+                In our approach, we have devised a system where users can report 
+                abuse directly by interacting with our AI bot. The process is simple 
+                and user-friendly - users merely need to direct message the bot with 
+                a link to the message containing the alleged abuse. They then categorize 
+                the abuse and provide any additional context that could be useful for further examination.
               </p>
-            </div>
-            <div class="project-details__tools-used">
-              <h3 class="project-details__content-title">Tools Used</h3>
-              <div class="skills">
-                <div class="skills__skill">HTML</div>
-                <div class="skills__skill">CSS</div>
-                <div class="skills__skill">JavaScript</div>
-                <div class="skills__skill">React</div>
-                <div class="skills__skill">SASS</div>
-                <div class="skills__skill">GIT</div>
-                <div class="skills__skill">Shopify</div>
-                <div class="skills__skill">Wordpress</div>
-                <div class="skills__skill">Google ADS</div>
-                <div class="skills__skill">Facebook Ads</div>
-                <div class="skills__skill">Android</div>
-                <div class="skills__skill">IOS</div>
-              </div>
-            </div>
-            <div class="project-details__links">
-              <h3 class="project-details__content-title">See Live</h3>
-              <a
-                href="#"
-                class="btn btn--med btn--theme project-details__links-btn"
-                target="_blank"
-                >Live Link</a
-              >
-              <a
-                href="#"
-                class="btn btn--med btn--theme-inv project-details__links-btn"
-                target="_blank"
-                >Code Link</a
-              >
+              <p class="project-details__desc-para">
+                Our technology also features automatic detection capabilities, 
+                powered by regex matching that scours all group chat messages 
+                for patterns of abusive language. A report is instantly generated 
+                upon detection of a match, triggering a prompt review. In severe 
+                cases, messages are immediately deleted, providing a safer space 
+                for the community.
+              </p>
+              <p class="project-details__desc-para">
+                To enhance our detection capabilities, we utilize the OpenAI API 
+                and GPT-3.5 Turbo for classifying incoming messages. This 
+                cutting-edge AI tool enables us to classify messages as Doxing, 
+                Extortion, Threats, Sexual Harassment, Hate Speech, or Bullying, 
+                with an added severity rating ranging from 1 to 4. This detailed 
+                classification system allows us to respond effectively to each 
+                case of abuse.
+              </p>
+              <p class="project-details__desc-para">
+                We have also implemented the Google Perspective API, a fail-safe 
+                mechanism that makes our system more resilient and reliable. This 
+                API examines messages for their toxicity score, thus providing 
+                another layer of scrutiny for abusive content.
+              </p>
+              <p class="project-details__desc-para">
+                Our moderation flow prioritizes tasks based on the severity of the 
+                reported issue. Higher priority reports are dealt with swiftly, 
+                and appropriate actions such as warnings, message deletions, or 
+                user expulsion are taken.
+              </p>
+              <p class="project-details__desc-para">
+                We understand the importance of data analysis in this context, 
+                hence we maintain a comprehensive database. It keeps track of 
+                user interactions, records of reports, warnings, and information 
+                about instances of false reporting. We've instituted a two-strike 
+                rule for false reporting to discourage misuse of the system.
+              </p>
+              <p class="project-details__desc-para">
+                Lastly, we also consider a user's prior conduct when reviewing 
+                reports. A message that might not normally be flagged could 
+                become a red flag if it's sent by a user with a history of 
+                problematic behavior. Through these collective efforts, we 
+                strive to provide a safer, more secure, and more respectful 
+                online community.
+              </p>
+
+              <p class="project-details__desc-para">
+                This was a group project and I would like to give credit to 
+                alicel1@stanford.edu davidgzz@stanford.edu marwan@stanford.edu 
+                taekyu@stanford.edu and raoufs@stanford.edu. 
+              </p>
+              <strong class="project-details__desc-para">
+                If you intend to use this code for your own discord bot note:
+              </strong>
+              <br />
+              <br />
+              <strong class="project-details__desc-para">
+                You can follow instructions online to setup the bot, tokens, and 
+                the dependencies. Note you must create a tokens.json file in the 
+                DiscordBot directory. 
+              </strong>
+              <br />
+              <br />
+              <strong class="project-details__desc-para">
+                You may want to use a Azure, GCP, and AWS instance to run the bot.
+              </strong>
+              <br />
+              <br />
+              <strong class="project-details__desc-para">
+                Never push your tokens to GitHub or any code sharing site, it 
+                will either not allow you or deactivate the token. If you are running 
+                the bot in an instance you should ssh into it to place the bot
+                token in the tokens.json file.
+              </strong>
+              <br />
+              <br />
+              <strong class="project-details__desc-para">
+                There are many more intricacies that only developers will be affordable
+                to navigate in setting up a bot with this complexity. Feel free to 
+                contact me for some help!
+              </strong>
             </div>
           </div>
         </div>
@@ -171,35 +226,28 @@
               <span>Social</span>
             </h2>
             <div class="main-footer__social-cont">
-              <a target="_blank" rel="noreferrer" href="#">
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/anthonydavidmensah/">
                 <img
                   class="main-footer__icon"
                   src="./assets/png/linkedin-ico.png"
                   alt="icon"
                 />
               </a>
-              <a target="_blank" rel="noreferrer" href="#">
+              <a target="_blank" rel="noreferrer" href="https://github.com/admensah">
                 <img
                   class="main-footer__icon"
                   src="./assets/png/github-ico.png"
                   alt="icon"
                 />
               </a>
-              <a target="_blank" rel="noreferrer" href="#">
+              <a target="_blank" rel="noreferrer" href="https://twitter.com/mranthonymensah">
                 <img
                   class="main-footer__icon"
                   src="./assets/png/twitter-ico.png"
                   alt="icon"
                 />
               </a>
-              <a target="_blank" rel="noreferrer" href="#">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/yt-ico.png"
-                  alt="icon"
-                />
-              </a>
-              <a target="_blank" rel="noreferrer" href="#">
+              <a target="_blank" rel="noreferrer" href="https://www.instagram.com/admensah/">
                 <img
                   class="main-footer__icon main-footer__icon--mr-none"
                   src="./assets/png/insta-ico.png"
@@ -209,20 +257,13 @@
             </div>
           </div>
           <div class="main-footer__row main-footer__row-2">
-            <h4 class="heading heading-sm text-lt">John Doe</h4>
+            <h4 class="heading heading-sm text-lt">Anthony Mensah</h4>
             <p class="main-footer__short-desc">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit facilis
-              tempora explicabo quae quod deserunt
+              One line of code at a time...
             </p>
           </div>
         </div>
 
-        <div class="main-footer__lower">
-          &copy; Copyright 2021. Made by
-          <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com"
-            >Ram Maheshwari</a
-          >
-        </div>
       </div>
     </footer>
     <script src="./index.js"></script>
